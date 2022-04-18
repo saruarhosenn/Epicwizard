@@ -1,0 +1,686 @@
+/*
+=========================================
+Responsive Breakpoint
+=========================================
+*/
+@media (max-width: 3500px) {
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-wrapper {
+    width: 64%;
+  }
+}
+
+@media (max-width: 3000px) {
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-wrapper {
+    width: 68%;
+  }
+}
+
+@media (max-width: 2500px) {
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-wrapper {
+    width: 77%;
+  }
+}
+
+@media (max-width: 2000px) {
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-wrapper {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1799px) {
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-wrapper {
+    width: 84%;
+  }
+}
+
+@media (max-width: 1599px) {
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-wrapper {
+    width: 88%;
+  }
+}
+
+@media (max-width: 1399px) {
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-wrapper {
+    width: 90%;
+  }
+
+  .hero-text-content .hero-title {
+    font-size: 4.6rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* 
+	  ===============================
+	  Hedear Section Responsive
+	  ===============================
+	  */
+  .navBar .main-menu .menu-item:not(:last-child) {
+    margin-right: 2.6rem;
+  }
+
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-text-content .hero-title {
+    font-size: 4rem;
+  }
+
+  /* 
+	  ===============================
+	  Expect Section Responsive
+	  ===============================
+	  */
+  .expect-content {
+    padding: 3rem;
+  }
+
+  /* 
+	  ===============================
+	  Roadmap Section Responsive
+	  ===============================
+	  */
+  .roadmap-old-man {
+    max-width: 48rem;
+    bottom: -11rem;
+  }
+
+  .roadmap-left-text {
+    max-width: 100%;
+  }
+
+  .roadmap-number .roadmap-number-text {
+    margin-top: 0;
+  }
+
+  .roadmap-number .line-wrapper-2 {
+    top: 13rem;
+  }
+
+  .roadmap-number .line-wrapper-3 {
+    top: 13rem;
+  }
+
+  .roadmap-number .line-wrapper-4 {
+    top: 13rem;
+  }
+
+  .roadmap-number .line-wrapper-5 {
+    top: 13rem;
+  }
+
+  .line-wrapper-1 .line-dashed-1 {
+    height: 13rem;
+  }
+
+  .line-wrapper-2 .line-dashed-2 {
+    height: 13rem;
+  }
+
+  .line-wrapper-3 .line-dashed-3 {
+    height: 11rem;
+  }
+
+  .line-wrapper-4 .line-dashed-4 {
+    height: 9rem;
+  }
+
+  .line-wrapper-5 .line-dashed-5 {
+    height: 13rem;
+  }
+
+  /* 
+	  ===============================
+	  Community Section Responsive
+	  ===============================
+	  */
+  .community-left-img {
+    left: 1rem;
+    max-width: 20rem;
+  }
+
+  .community-right-img {
+    right: 1rem;
+    max-width: 20rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* 
+	  ===============================
+	  Header Section Responsive
+	  ===============================
+	  */
+  .navBar .header-logo .logo {
+    max-width: 5rem;
+  }
+
+  .navBar .main-menu {
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: -150%;
+    padding: 3rem;
+    background: var(--four-color);
+    width: 36rem;
+    z-index: 9999;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-transition: all 0.6s ease-in;
+    -o-transition: all 0.6s ease-in;
+    transition: all 0.6s ease-in;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .navBar .show-menu {
+    left: 0%;
+    -webkit-transition: all 0.6s ease-in;
+    -o-transition: all 0.6s ease-in;
+    transition: all 0.6s ease-in;
+  }
+
+  .navBar .main-menu .menu-item:not(:last-child) {
+    margin-right: 0rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-wrapper {
+    width: 87%;
+  }
+
+  .hero-text-content {
+    max-width: 50.6rem;
+  }
+
+  .hero-text-content .hero-title {
+    font-size: 4.6rem;
+  }
+
+  /* 
+	  ===============================
+	  Roadmap Section Responsive
+	  ===============================
+	  */
+  .roadmap-section-title {
+    margin-bottom: 0;
+  }
+
+  .roadmap-left-text {
+    margin-bottom: 1.5rem;
+  }
+
+  .roadmap-right-content {
+    -ms-grid-columns: 9rem auto;
+    grid-template-columns: 9rem auto;
+  }
+
+  .roadmap-number .roadmap-number-text {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .roadmap-number .line-wrapper-1 {
+    top: 9.5rem;
+  }
+
+  .roadmap-number .line-wrapper-2 {
+    top: 9.5rem;
+  }
+
+  .roadmap-number .line-wrapper-3 {
+    top: 9.4rem;
+  }
+
+  .roadmap-number .line-wrapper-4 {
+    top: 9.3rem;
+  }
+
+  .roadmap-number .line-wrapper-5 {
+    top: 9.5rem;
+  }
+
+  .line-wrapper-1 .line-dashed-1 {
+    height: 6.6rem;
+  }
+
+  .line-wrapper-2 .line-dashed-2 {
+    height: 6.6rem;
+  }
+
+  .line-wrapper-3 .line-dashed-3 {
+    height: 6.6rem;
+  }
+
+  .line-wrapper-4 .line-dashed-4 {
+    height: 6.8rem;
+  }
+
+  .line-wrapper-5 .line-dashed-5 {
+    height: 8.6rem;
+  }
+
+  /* 
+	  ===============================
+	  Community Section Responsive
+	  ===============================
+	  */
+  .community-left-img {
+    left: -11rem;
+  }
+
+  .community-right-img {
+    right: -11rem;
+  }
+
+  /* 
+	  ===============================
+	  Back to top Btn
+	  ===============================
+	  */
+  #scroll-up-btn {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  #scroll-up-btn img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-wrapper {
+    width: 85%;
+  }
+
+  .hero-text-content .hero-title {
+    font-size: 4rem;
+  }
+
+  /* 
+	  ===============================
+	  Expect Section Responsive
+	  ===============================
+	  */
+  .expect-content {
+    padding: 2rem;
+  }
+
+  /* 
+	  ===============================
+	  Roadmap Section Responsive
+	  ===============================
+	  */
+  .roadmap-number .line-wrapper-1 {
+    top: 9.5rem;
+  }
+
+  .roadmap-number .line-wrapper-2 {
+    top: 9.5rem;
+  }
+
+  .roadmap-number .line-wrapper-3 {
+    top: 9.6rem;
+  }
+
+  .roadmap-number .line-wrapper-4 {
+    top: 9.5rem;
+  }
+
+  .line-wrapper-1 .line-dashed-1 {
+    height: 16.8rem;
+  }
+
+  .line-wrapper-2 .line-dashed-2 {
+    height: 16.8rem;
+  }
+
+  .line-wrapper-3 .line-dashed-3 {
+    height: 14.8rem;
+  }
+
+  .line-wrapper-4 .line-dashed-4 {
+    height: 12.8rem;
+  }
+
+  .line-wrapper-5 .line-dashed-5 {
+    height: 16.8rem;
+  }
+
+  /* 
+	  ===============================
+	  Team Section Responsive
+	  ===============================
+	  */
+  .team-section-title {
+    margin-bottom: 2.5rem;
+  }
+
+  /* 
+	  ===============================
+	  Footer Section Responsive
+	  ===============================
+	  */
+  .footer-menu {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  /* 
+  =====================================
+  Variables
+  =====================================
+  */
+  :root {
+    --size-xxl: 3rem;
+  }
+
+  /* 
+  ===================================
+  Reuseble Components
+  ===================================
+  */
+  main :is(.expect-section, .featured-section, .roadmap-section) {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  main :is(.team-section, .community-section) {
+    padding-bottom: 4rem;
+  }
+
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-section {
+    padding-bottom: 4rem;
+  }
+
+  .hero-wrapper {
+    width: 100%;
+    padding-left: 2.8rem;
+  }
+
+  .hero-text-content {
+    max-width: 100%;
+    padding-right: 2.8rem;
+  }
+
+  .hero-text-content .hero-description {
+    padding-right: 0;
+  }
+
+  /* 
+	  ===============================
+	  Expect Section Responsive
+	  ===============================
+	  */
+  .expect-content .expect-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .expect-content .expect-icon .expect-title {
+    margin-left: 1.2rem;
+  }
+
+  /* 
+	  ===============================
+	  Roadmap Section Responsive
+	  ===============================
+	  */
+  .roadmap-section {
+    padding-bottom: 4rem !important;
+  }
+
+  .roadmap-right-content {
+    -ms-grid-columns: 6.2rem 1.8rem auto;
+    grid-template-columns: 6.2rem auto;
+    grid-column-gap: 1.8rem;
+  }
+
+  .roadmap-right-content:not(:last-child) {
+    margin-bottom: 2.8rem;
+  }
+
+  .roadmap-number .roadmap-number-text {
+    width: 6.2rem;
+    height: 6.2rem;
+  }
+
+  .roadmap-number .line-wrapper {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    margin: -1.7rem 0.1rem 0;
+    transform: scaleY(0.7);
+    -webkit-transform: scaleY(0.7);
+    -moz-transform: scaleY(0.7);
+    -ms-transform: scaleY(0.7);
+    -o-transform: scaleY(0.7);
+  }
+
+  .line-wrapper .line-dashed {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .line-wrapper .line-circle {
+    margin-top: 0;
+    margin-bottom: 0;
+    transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    -moz-transform: scaleY(1.4);
+    -ms-transform: scaleY(1.4);
+    -o-transform: scaleY(1.4);
+  }
+
+  /* 
+	  ===============================
+	  Team Section Responsive
+	  ===============================
+    */
+  .team-section {
+    padding-top: 6rem;
+  }
+
+  /* 
+	  ===============================
+	  Community Section Responsive
+	  ===============================
+    */
+  .community-section {
+    padding-top: 4.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  /* 
+  =====================================
+  Variables
+  =====================================
+  */
+  :root {
+    --size-xxl: 2.8rem;
+  }
+
+  /* 
+  ================================================
+  Reuseble Components
+  ================================================
+*/
+  .circle-btn-lg {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-section {
+    padding-top: 11rem;
+  }
+
+  .hero-slider-bottom-text
+    :is(.hero-slider-bottom-text-left, .hero-slider-bottom-text-right) {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 374px) {
+  /* 
+  =====================================
+  Variables
+  =====================================
+  */
+  :root {
+    --size-xl: 2rem;
+    --size-md: 1.5rem;
+  }
+
+  /* 
+	  ===============================
+	  Header Section Responsive
+	  ===============================
+	  */
+  .navBar .main-menu {
+    width: 100%;
+  }
+
+  /* 
+	  ===============================
+	  Hero Section Responsive
+	  ===============================
+	  */
+  .hero-wrapper {
+    padding-left: 1.5rem;
+  }
+
+  .hero-text-content {
+    padding-right: 1.5rem;
+  }
+
+  .hero-text-content .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-slider-content .hero-slider-bottom-text .hero-slider-bottom-text-left {
+    padding: 0.7rem 1.6rem;
+  }
+
+  .hero-slider-bottom-text
+    :is(.hero-slider-bottom-text-left, .hero-slider-bottom-text-right) {
+    font-size: 1rem;
+  }
+
+  /* 
+	  ===============================
+	  Roadmap Section Responsive
+	  ===============================
+	  */
+  .roadmap-right-content .roadmap-right-text {
+    padding: 1.8rem 1.7rem;
+  }
+
+  .roadmap-number .line-wrapper {
+    margin: -0.9rem 0.1rem 0;
+  }
+
+  .roadmap-right-content {
+    -ms-grid-columns: 4.5rem auto;
+    grid-template-columns: 4.5rem auto;
+  }
+
+  .roadmap-number .roadmap-number-text {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  /* 
+	  ===============================
+	  Team Section Responsive
+	  ===============================
+	  */
+  .team-content-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .team-content-row > * {
+    width: 100%;
+  }
+}
